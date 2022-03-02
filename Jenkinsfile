@@ -4,7 +4,7 @@ pipeline{
     stage("some name"){
       agent any
       options{
-        skipDefaultCheckout()
+        //skipDefaultCheckout()
       }
       steps{
         echo "Hello"
