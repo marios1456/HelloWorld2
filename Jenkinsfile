@@ -3,9 +3,9 @@ pipeline{
   stages{
     stage("some name"){
       agent any
-      options{
-        //skipDefaultCheckout()
-      }
+      /*options{
+        skipDefaultCheckout()
+      }*/
       steps{
         echo "Hello"
       }
