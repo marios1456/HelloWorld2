@@ -1,12 +1,11 @@
 pipeline{
   agent any
-  options{
-        skipDefaultCheckout()
-      }
   stages{
     stage("some name"){
-      agent any
-      /**/
+      when {
+        branch 'main'
+      }
+      
       steps{
         echo "Hello"
       }
