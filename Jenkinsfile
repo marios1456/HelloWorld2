@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("some name"){
       when {
-        buildingTag()
+        changelog '.*some_text.*'
       }
       
       steps{
