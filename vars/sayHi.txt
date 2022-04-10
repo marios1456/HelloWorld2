@@ -1,0 +1,5 @@
+sayHi(name)
+echos Hi name 
+example:
+sayHi("Marios")
+echos Hi Marios
