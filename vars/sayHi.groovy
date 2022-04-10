@@ -1,3 +1,3 @@
-def sayHi(){
-  echo "hi"
+def sayHi(name){
+  echo "hi ${name}"
 }
