@@ -1,3 +1,3 @@
 def sayHi(name){
-  echo "hi ${name}"
+  echo "hello ${name}"
 }
