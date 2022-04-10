@@ -1,10 +1,10 @@
 packege com.acceleratedskillup;
 
-class Car {
+class Car1 {
   int numberOfDoors
   String model
   def script
-    Car(script) {
+    Car1(script) {
       this.script = script
     }
 
