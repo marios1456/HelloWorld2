@@ -1,5 +1,5 @@
-sayHi(name)
-  echos Hi name 
+sayHi(name) \n
+  echos Hi name <\br>
 example:
   sayHi("Marios")
     echos Hi Marios
